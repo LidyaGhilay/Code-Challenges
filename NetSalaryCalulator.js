@@ -4,9 +4,9 @@ function CalculateNetSalary(basicSalary,benefits){
     const NHIFRate=0.01
     const NSSFRate = 0.06
     let grossSalary=0
-    
+    //check if the basic salary is greater than 24000
     if (basicSalary > 24000) 
-       //to calculate the gross salary 
+       //if yes
      grossSalary = basicSalary + benefits
 
      const payee = grossSalary * payeRate
